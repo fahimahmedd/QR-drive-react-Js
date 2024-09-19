@@ -1,0 +1,185 @@
+.HomeBodyContent{
+    padding: 20px;
+
+    .store_Card{
+        height: 210px;
+        width: 100%;
+        background-color: $white-color;
+        box-shadow: $primary-boxShadow;
+        border-radius: 16px;
+        padding: 14px;
+        position: relative;
+        overflow: hidden;
+        &:hover{
+            box-shadow: $secondary-boxShadow;
+        }
+        
+        cursor: pointer;
+        .store_Card_top{
+            .overviewItem_icon{
+                height: 45px;
+                width: 45px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: $primary-background;
+                border-radius: 6px;
+                img{
+                    max-width: 60%;
+                    max-height: 60%;
+                }
+            }
+            .card_name{
+                font-size: 18px;
+                color: $black-color;
+                font-weight: 500;
+                padding-top: 10px;
+            }
+            .card_file_quantity{
+                font-size: 15px;
+                color: $text;
+                font-weight: 400;
+            }
+        }
+        .store_Card_bottom{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 14px 14px;
+            .used_space{
+                font-size: 14px;
+                font-weight: 400;
+                color: $text;
+                padding-bottom: 7px;
+            }
+           
+        }
+    }
+
+    .active_vault{
+        background-color: #d4d4d4c4 !important;
+    }
+
+    .recent_files{
+        padding-top: 50px;
+
+       .recent_files_container{
+        padding: 20px 20px 0 20px;
+        background-color: $white-color;
+        border-radius: 16px;
+        box-shadow: $primary-boxShadow;
+        height: 460px;
+        .section_heading{
+              display: flex;
+              justify-content: space-between;
+              margin-bottom: 10px;
+              .heading_left{
+                h4{
+                    font-size: 22px;
+                    font-weight: 500;
+                    color: $black-color;
+                    line-height: 28px;
+                   }
+                   h6{
+                    font-size: 14px;
+                    color: $text;
+                    font-weight: 400;
+                    line-height: 22px;
+                  }
+              }
+              .heading_right{
+                font-size: 16px;
+                color: $text;
+                display: inline-block;
+                cursor: pointer;
+                &:hover{
+                    color: $black-color;
+                }
+              }
+        }
+        .recent_files_item{
+            height: 75px;
+            width: 100%;
+            border-bottom: 1px dashed $primary-border;
+            padding: 18px 0;
+            &:nth-last-child(1) {
+                border-bottom: 1px dashed transparent;
+            }
+            
+            .item_title{
+                display: flex;
+               .overviewItem_icon{
+                   height: 40px;
+                   width: 40px;
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;
+                   background-color: $primary-background;
+                   border-radius: 4px;
+                   img{
+                       max-width: 60%;
+                       max-height: 60%;
+                   }
+               }
+               .item_title_name{
+                 width: 100%; 
+                 overflow: hidden;
+                span{
+                    font-size: 16px;
+                    color: $black-color;
+                    font-weight: 400;
+                    padding-left: 8px;
+                }
+                .title_mob_date{
+                    font-size: 13px;
+                    color: $text;
+                    font-weight: 400;
+                    
+                }
+               }
+           }
+           .item_text{
+            font-size: 14px;
+            color: $text;
+            font-weight: 400;
+        }
+        .list_activity{
+            .icoon{
+                height: 32px;
+                width: 32px;
+                background-color: $primary-background;
+                border-radius: 50%;
+                text-align: center;
+                cursor: pointer;
+                .MuiSvgIcon-root{
+                    font-size: 20px;
+                    margin-top: 6px;
+                    color: $text;
+                }
+            }
+          }
+        }
+       }
+    }
+}
+
+.droper_menu_item {
+    font-size: 15px !important;
+    line-height: 18px !important;
+    min-height: 32px !important;
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+    padding-left: 16px ;
+    padding-right: 16px;
+}
+
+.card_progress{
+       height: 12px;
+       width: 100%;
+       background-color: $primary-background;
+       border-radius: 35px;
+       position: relative;
+       overflow: hidden;
+  
+ }

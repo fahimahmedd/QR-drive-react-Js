@@ -1,0 +1,42 @@
+.micrositeBody_header{
+    padding: 20px 0;
+    width: 100%;
+    background-color: $white-color;
+    h6{
+        font-size: 15px;
+        font-weight: 400;
+        color: $black2-color; 
+        text-align: center;
+        padding-bottom: 8px;
+    }
+    .microsite_logo{ 
+        height: 60px;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        img{
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+}
+
+.microsite_intro_vedio{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .vedio_container{
+        height: 500px !important;
+        width: 100% !important;
+    }
+    .viewMore_btn{
+        width: 280px; 
+        margin-top: 10px; 
+        padding: 10px 10px; 
+    }
+}
+
+ 

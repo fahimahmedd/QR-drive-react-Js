@@ -1,0 +1,79 @@
+.coverImg{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    img{
+        height: 90px;
+        width: 90px;
+        object-fit: contain;
+        border-radius: 50%;
+        border: 2px solid $white-color;
+    }
+  }
+
+  .cursorPointer{
+    cursor: pointer;
+  }
+
+  .vaultName{
+    display: flex;
+    justify-content: center;
+  }
+
+  .sideBtn_list_mobile{
+    display: flex;
+    padding: 10px;
+  }
+
+
+.purchase_body{
+  padding-top: 80px;
+  .purchase_card{ 
+      border-radius: 12px ; 
+      background-color: #f9f9f9;
+      box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);      height: auto; 
+      min-height: 290px;
+      width: 100%;
+      min-width: 250px;
+      // display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      cursor: pointer;
+      padding-top: 70px;
+      padding-left: 40px;
+      padding-right: 40px;
+      &:hover{
+          box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+      }
+  }
+}
+
+.paybill_form{
+  padding: 40px 30px;
+  background-color: #fff;
+  width: 550px;
+  margin: 40px auto;
+  border-radius: 12px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  .card_content{
+      height: 60px;
+      border: 1px solid #969696b6;
+      padding: 20px 10px;
+      border-radius: 4px;
+  }
+  .pay_button{
+      height: 52px;
+      width: 100%;
+      background-color: #000;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 4px;
+      margin-top: 20px;
+      &:hover{
+          background-color: orangered;
+      }
+  }
+}

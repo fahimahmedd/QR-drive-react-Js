@@ -1,0 +1,5 @@
+export {titleImageDetailsHorizontal} from './titleImageDetailsHorizontal.jsx'
+export {imageTitleDetailsVerticle} from './imageTitleDetailsVerticle.jsx'
+export {lineButtonHorizontal} from './lineButtonHorizontal.jsx'
+export {imageTitleDetailsHorizontal} from './imageTitleDetailsHorizontal.jsx'
+export {detailsPage} from './detailsPage.jsx'

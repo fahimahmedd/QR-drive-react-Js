@@ -1,0 +1,91 @@
+.setting_body{
+    width: 100%;
+    .setting_container{
+        width: 700px;
+        margin-left: 30px;
+        padding: 10px;
+        h4{
+            font-size: 24px;
+            color: $black-color;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            .MuiSvgIcon-root{
+                margin-left: 5px;
+            }
+        }
+        .vault_info{
+            width: 100%; 
+            background-color: $white-color;
+            border-radius: 16px;
+            box-shadow: $primary-boxShadow;
+            padding: 35px;
+            h5{
+                font-size: 20px;
+                font-weight: 500;
+                color: $black-color;
+                padding-bottom: 20px;
+            }
+            .MuiFormControl-root{
+                width: 100%;
+                border-radius: 7px;
+                overflow: hidden;
+                margin: 5px 0;
+                background-color: rgba(0, 0, 0, 0.06);
+                .MuiInputBase-root{
+                    &::before{
+                        border-bottom: 1px solid transparent;
+                    }
+                }
+                .MuiFormLabel-root{
+                    color:$black2-color;
+                } 
+                .MuiInputBase-root {
+                   &::after{
+                     border-bottom: 2px solid $primary-color;
+                   }
+                   .MuiFilledInput-input{
+                    color: $black-color !important;
+                }
+                }
+                .pass_input_field{
+                    padding: 5px 0 6px 12px !important; 
+                    color: $black-color !important;
+                }
+                
+                .css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+                    margin-top: -15px !important;
+                    margin-right: 5px; 
+                    .MuiSvgIcon-root{
+                        color: $black2-color;
+                    }
+                }
+               }
+            .vault_save_btn{
+                width: 100%;
+                margin-top: 20px;
+            }
+
+            .table_info{
+                  .table_heading{
+                      .heading_item{
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: #333;
+                        text-align: center;
+                      }
+                  }
+                  .table_content{
+                      .content_item{
+                        font-size: 15px;
+                        font-weight: 400;
+                        color: #333;
+                        text-align: center;
+                      }
+                  }
+            }
+        }
+    }
+}
+

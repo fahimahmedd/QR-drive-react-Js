@@ -1,0 +1,24 @@
+@mixin button (){
+  padding: 10px 35px;
+  background-color: $primary-color;
+  border-radius: 35px;
+  font-size: 18px;
+  font-weight: 400;
+  color: $white-color;
+  display: inline-block;
+  cursor: pointer;
+  &:hover{
+    background-color: $black-color;
+  }
+}
+
+
+@mixin square($size, $radius: 0) {
+    width: $size;
+    height: $size;
+    background-color: red;
+    
+    @if $radius != 0 {
+      border-radius: $radius;
+    }
+  }

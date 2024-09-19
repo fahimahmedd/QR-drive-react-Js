@@ -1,0 +1,109 @@
+.footer{
+    padding: 80px 0 40px 0;  
+    background-color: #19263d; 
+    position: relative;
+    z-index: 1;
+    margin-top: 350px;
+    &::after{
+        position: absolute;
+        content: '';
+        top: 0;
+        bottom: 0; 
+        left: 0;
+        width: 100%;
+        height: 100%;
+        mix-blend-mode: color-burn;
+        opacity: .25;
+        background-image: url(../image/footerBg.png); 
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        z-index: -1;
+    }
+  .footer_wrapper{
+      padding-top: 20px;
+      margin-bottom: 40px;
+    .footer_side_one{
+        .footer_logo{
+           height: auto;
+           width: 180px;
+           padding-bottom: 28px;
+           img{
+               max-width: 100%;
+               max-height: 100%;
+           }
+        } 
+        p{
+            font-size: 16px;
+            color: $offwhite-color; 
+        }
+        .footer_icon{
+            padding-top: 15px; 
+            ul{
+                li{ 
+                    display: inline-block; 
+                    padding-right: 22px;
+                    a{
+                        color: $white-color;
+                    }
+                   
+                }
+            }
+        }
+    }
+    .footer_side_two{
+        h4{
+            font-size: 20px;
+            color: $white-color;
+            font-weight: 400;
+            display: inline-block;
+            border-bottom: 1px dashed $offwhite-color;
+            padding: 7px 0;
+        }
+        .info_1{
+            font-size: 15px; 
+            font-weight: 400; 
+            color: $offwhite-color;
+            padding-top: 5px; 
+            i{
+                padding-right: 5px;
+            }
+        }
+        h5{
+            font-size: 17px; 
+            color: $offwhite-color;  
+            font-weight: 400;
+            
+        }
+        h6{
+            font-size: 15px; 
+            color: $offwhite-color;   
+            font-weight: 400;
+        }
+        ul{
+            li{
+                font-size: 15px;
+                color: $offwhite-color; 
+                padding-top: 7px;
+                i{
+                    padding-right: 5px;
+                    color: $offwhite-color;
+                }
+                a{
+                   color: $white-color;
+                }
+            }
+        }
+    }
+  }
+  .copy_right{
+     text-align: center;
+     border-top: 1px solid #616161;  
+     padding-top: 30px;
+      h5{
+        font-size: 16px;
+        color: $offwhite-color;  
+        font-weight: 400;
+      }
+  }
+} 

@@ -1,0 +1,129 @@
+.mobile_header{
+    background-color: #006ed5;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-shadow: $primary-boxShadow;
+    .mobile_wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+     .mobile_left_side{
+        .mobile_menubar{
+            display: flex;
+            align-items: center;
+            .MuiSvgIcon-root{
+                color: $white-color; 
+                font-size: 42px;
+            }
+        }
+     }
+
+        .mobile_rightt_side{
+         .search_input{
+            position: relative;
+            .form_control{
+                background-clip: padding-box;
+                background-color: #f3f3f368; 
+                border: 1px solid $primary-border;
+                width: 245px;
+                border-radius:35px;
+                color: #fff;
+                height: 45px;
+                padding: 0 15px;
+                position: relative;
+                transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                -webkit-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                -moz-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                -ms-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                -o-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                font-size: 15px;
+                &:focus-visible{
+                    outline: 0;
+                }
+                &::placeholder{
+                  color: rgb(234, 231, 231);
+                  font-size: 15px;
+                  font-weight: 400;
+                }
+              
+            }
+            .search_bar_icon{
+                height: 38px;
+                width: 38px;
+                border-radius: 50%;
+                background-color: #f3f3f368; 
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                right: 5px;
+                top: 50%;
+                transform: translateY(-50%);
+                z-index: 2;
+               .MuiSvgIcon-root{
+                   color: $white-color;
+                   font-size: 27px;
+               }
+           }
+         }
+        }
+    }
+}
+.MuiDrawer-root{
+    .MuiPaper-root{
+        padding: 20px;
+        .mobile_logo{
+            height: 70px !important;
+            width: auto !important;
+            img{
+                max-width: 100% !important;
+                max-height: 100% !important;
+            }
+        }
+        .user_info{
+            padding-top: 30px;
+            .user_name{
+                display: flex;
+                align-items: center;
+                font-size: 18px;
+                color: #585858;
+                font-weight: 500;
+                .MuiSvgIcon-root{
+                    margin-right: 5px;
+                }
+            }
+            .user_mail{
+                display: flex;
+                align-items: center;
+                font-size: 15px;
+                color: #585858;
+                padding-top: 7px;
+                padding-bottom: 30px;
+                .MuiSvgIcon-root{
+                    margin-right: 5px;
+                }
+            }
+            .user_setting{
+                display: flex;
+                align-items: center;
+                font-size: 15px;
+                color: $black-color;
+                .MuiSvgIcon-root{
+                    margin-right: 5px;
+                }
+            }
+        }
+        .mobile_logout_btn{
+            position: absolute;
+            bottom: 35px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}
+
+// Mobile Searchbar
+
+

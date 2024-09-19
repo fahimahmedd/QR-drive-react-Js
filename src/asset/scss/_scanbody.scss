@@ -1,0 +1,126 @@
+.drag_qr_container{
+    min-height: 280px;
+    border: 1px dashed $white-color;
+    background-color: #f2f4f43e;
+    margin: 0 auto; 
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+
+    #reader__header_message{
+        border-top: transparent !important;
+    }
+   
+    #reader__scan_region{
+        min-height: 50px !important;
+        padding: 6px;
+        img{ 
+            height: 40px; 
+            width: 40px;
+        }
+        #qr-canvas-visible{
+            width: 130px !important;
+            height: 130px !important;
+        }
+    }
+    #html5-qrcode-button-file-selection{
+        padding: 6px 10px;
+        background-color: $primary-color;
+        border:  1px solid $primary-color;
+        font-size: 13px;
+        border-radius: 5px;
+        color: $white-color;
+        margin-bottom: 10px;
+        cursor: pointer;
+        &:hover{
+            background-color: $white-color;
+            color: $black-color;
+            border: 1px solid $white-color;
+        }
+
+    }
+    &::after{
+        position: absolute;
+        content: '';
+        top: 3px;
+        right: 3px;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background-image: url(../image/info.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: $white-color;
+        z-index: 3;
+    }
+  
+   
+    #reader__dashboard{
+        padding: 10px 0 !important;
+        font-size: 14px;
+        line-height: 15px;
+        color: $white-color;
+        #reader__dashboard_section{ 
+            padding: 10px 10px 40px 10px !important;
+            label{
+                padding: 40px 0 20px 0;
+            }
+        }
+        #reader__dashboard_section_csr{
+            #html5-qrcode-select-camera{
+                padding: 10px;
+                background-color: $white-color;
+                border:  none;
+                border-radius: 5px;
+                margin: 20px 0;
+                width: 100%;
+            }
+            #html5-qrcode-button-camera-permission{
+                padding: 10px;
+                background-color: $white-color;
+                border:  none;
+                border-radius: 5px;
+                margin-bottom: 25px;
+            }
+            #html5-qrcode-button-camera-start{
+                padding: 10px;
+                background-color: $white-color;
+                border-radius: 5px;
+            }
+            #html5-qrcode-button-camera-stop{
+                padding: 10px;
+                background-color: $white-color;
+                border:  none;
+                border-radius: 5px;
+            }
+            
+        }
+        #html5-qrcode-anchor-scan-type-change{
+            
+            border-radius: 10px;
+            text-decoration: none !important;
+            color: $black-color;
+            font-weight: 500;
+            font-size: 15px;
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            text-align: center;
+            cursor: pointer;
+            &:hover{
+                color: $black-color;
+            }
+        }
+
+       
+    }
+}
+
+#reader{
+    border: 1px dashed $white-color !important;
+    width: 370px !important;
+
+}

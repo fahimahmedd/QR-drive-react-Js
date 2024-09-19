@@ -1,0 +1,74 @@
+/*<><><><><><><<><><><><><<><><><><>
+
+Template Name: 
+Template URL : 
+Description  :
+Author       : Fahim Ahmed
+Author URL   :
+Version      : 1.0
+
+<><><><><><><<><><><><><<><><><><>*/
+
+/*----------------------------------
+       HTML  INDEX LIST
+
+01. 
+02. 
+03. 
+
+-------------------------------------*/
+
+ 
+
+/*--------------------------------- 
+       CSS INDEX LIST
+
+01. 
+02.  
+03.  
+
+------------------------------------*/
+
+
+/*     Google Font Connections
+-------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;600;700;800;900&family=Noto+Serif:wght@400;700&family=Open+Sans:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+/*      SCSS Pages Connections  
+<><><><<><<><><<><><><><><><<><><><>*/
+
+@import "../scss/common_css/common";  
+@import "../scss/mixin_scss/mixin";
+@import "../scss/variable_scss/variable";
+
+
+/*     SCSS Sections Connections 
+<><><><<><<><><<><><><><><><<><><><>*/
+@import "../scss/header"; 
+@import "../scss/leftSideBar"; 
+@import "../scss/rightSideBar"; 
+@import "../scss/myfilesBody"; 
+@import "../scss/HomeBodyContent"; 
+@import "../scss/uploader"; 
+@import "../scss/footer"; 
+@import "../scss/entry"; 
+@import "../scss/register"; 
+@import "../scss/journal"; 
+@import "../scss/scanbody"; 
+@import "../scss/setting"; 
+@import "../scss/mobileHeader"; 
+@import "../scss/mobileBottomTab"; 
+@import "../scss/loader"; 
+@import "../scss/sweetModal"; 
+@import "../scss/note";  
+@import "../scss/authorMicrosite";  
+@import "../scss/companyBanner";  
+@import "../scss/naeem";  
+@import "../scss/sponsors";  
+
+
+ 
+
+
+/*  Sub Pages Sections Connections 
+<><><><<><<><><<><><><><><><<><><><>*/

@@ -1,0 +1,47 @@
+.swal2-title{
+    font-size: 20px !important;
+    color: $black-color !important;
+    font-weight: 500 !important; 
+    line-height: 28px !important;
+}
+.swal2-styled.swal2-confirm {
+    background-color: $primary-color !important;
+}
+.swal2-styled.swal2-confirm:focus {
+    box-shadow: 0 0 0 3px transparent !important;
+}
+
+.swal2-container.swal2-center>.swal2-popup {
+    padding-top: 20px;
+}
+.swal2-input:focus, .swal2-file:focus, .swal2-textarea:focus {
+    border: 2px solid $primary-color !important; 
+    outline: none !important;
+    box-shadow: inset 0 1px 1px transparent !important; 
+}
+
+
+.item_details_dialogue{
+   
+   .file_name{
+    font-size: 18px;
+    color: $black-color;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 20px;
+    span{
+        font-weight: 400;
+        font-size: 17px;
+    }
+   }
+   .file_moreItem{
+    font-size: 16px;
+    color: $black-color;
+    font-weight: 500;
+    line-height: 28px;
+    span{
+        font-weight: 400;
+        font-size: 15px;
+    }
+   }
+}

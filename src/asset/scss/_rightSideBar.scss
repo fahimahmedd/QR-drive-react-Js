@@ -1,0 +1,114 @@
+.rightSidebar{
+    position: fixed;
+    right: 20px;
+    top: 90px;
+    background-color: $white-color;
+    width: 320px;
+    height: 100vh;
+    padding: 20px;
+    box-shadow: $primary-boxShadow;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+
+    h4{
+        font-size: 20px;
+        color: $black-color;
+        font-weight: 500;
+    }
+
+    .vault_space{
+        position: relative;
+        text-align: center;
+        margin: 20px auto;
+        height: 220px;
+        width: 220px;
+        border-radius: 50%;
+        background-color: $primary-background;
+        .MuiCircularProgress-root{
+            height: 220px !important;
+            width: 220px !important;
+            .MuiCircularProgress-svg{
+                 color: $primary-color;
+              }
+        }
+
+        .space_update{
+            position: absolute;
+            top: 55%;
+            left: 50%;
+            transform: translate(-50%,-55%);
+            width: 100%;
+            .total_storage{
+                font-size: 36px;
+                color: $black-color;
+                font-weight: 600;
+                line-height: 40px;
+                span{
+                    font-size: 15px;
+                    color: $black-color;
+                    display: block;
+                    font-weight: 400;
+                }
+            }
+        }
+       
+    }
+    .vault_upgrade{
+        display: flex;
+        justify-content: center;
+        .vault_upgrade_right{
+            padding-left: 12px;
+            font-size: 14px;
+            color: $text;
+            font-weight: 400;
+            line-height: 19px;
+        }
+    }
+    .vault_overview{
+         margin-top: 20px;
+        .overview_item{
+            padding: 12px;
+            border: 1px solid $primary-border;
+            background-color: $secondary-background;
+            border-radius: 10px;
+            height: 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 10px;
+            margin-top: 10px;
+            cursor: pointer;
+            &:hover{
+                background-color: $primary-background;
+                transition: all linear .5s;
+            }
+        .item_title{
+             display: flex;
+             align-items: center;
+            .overviewItem_icon{
+                height: 45px;
+                width: 45px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: $primary-background;
+                border-radius: 50%;
+                img{
+                    max-width: 60%;
+                    max-height: 60%;
+                }
+            }
+            span{
+                font-size: 15px;
+                color: $black-color;
+                padding-left: 6px;
+            }
+        }
+            .space_count{
+                font-size: 16px;
+                color: $text;
+                font-weight: 400;
+            }
+        }
+    }
+}

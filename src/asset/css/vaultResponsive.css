@@ -1,0 +1,1050 @@
+@media (min-width: 280px) and (max-width: 899.98px) {
+  .banner_container .banner_Wrapper {
+    height: auto;
+  }
+  .css-1anx036 {
+    display: none !important;
+  }
+  .note_page_body_content {
+    padding-left: 15px;
+    width: 100%;
+    padding-right: 15px;
+  }
+  .noteAdd::after {
+    height: 100px;
+    width: 100px;
+  }
+  .noteAdd .notebtn_wrap .note_img {
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+  }
+  .noteAdd .notebtn_wrap h4 {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .note_container {
+    padding-top: 20px;
+    padding-bottom: 110px;
+  }
+  .note_item {
+    padding: 12px;
+  }
+  .note_item .note_title {
+    width: 85%;
+  }
+
+  .uploader_contianer .folder_name_input .css-1x5jdmq {
+    min-width: 228px !important;
+  }
+  .journal_others_info .css-vubbuv {
+    font-size: 13px !important;
+  }
+  .vault_upgrade_right {
+    padding-top: 8px !important;
+  }
+  .mob_none {
+    display: none !important;
+  }
+  .note_edid_body .journal_title_field .MuiInputBase-input {
+    height: 50px !important;
+    width: 240px;
+    font-size: 26px;
+  }
+  .note_edid_body {
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 90px;
+  }
+
+  /*  */
+  .purchase_btn_2 {
+    display: block !important;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .journal_add_btn {
+    font-size: 12px;
+  }
+  .css-5t8t4o {
+    width: 256px !important;
+  }
+  .css-5t8t4o {
+    width: 256px !important;
+  }
+  .css-1ty026z {
+    padding: 0px 0px !important;
+  }
+  .uploader_contianer {
+    padding: 20px 20px 20px 20px !important;
+  }
+
+  .uploader_dial {
+    bottom: 100px !important;
+  }
+  .HomeBodyContent .recent_files .recent_files_container {
+    height: 440px;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .MuiDrawer-root .MuiPaper-root .mobile_logo {
+    height: 65px !important;
+    width: auto !important;
+  }
+  .entry_bg .entry_container .entry_conetnt_two h4 {
+    padding-top: 8px;
+  }
+  .entry_bg .entry_container .entry_conetnt_two .logo {
+    height: 50px;
+  }
+  .MuiDrawer-root .MuiPaper-root .user_info .user_name {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .MuiDrawer-root .MuiPaper-root .user_info .user_mail {
+    font-size: 14px;
+    padding-top: 7px;
+  }
+  .mobile_header {
+    height: 55px;
+  }
+  .page_title h2 {
+    font-size: 20px;
+    line-height: 34px;
+  }
+  .css-sghohy-MuiButtonBase-root-MuiButton-root {
+    font-size: 10px !important;
+  }
+  .page_title {
+    padding: 0 0 25px 0;
+  }
+
+  .entry_bg .entry_container {
+    height: auto;
+    width: auto;
+    overflow: visible;
+    border-radius: 15px;
+  }
+  .otp_field_container input {
+    height: 46px !important;
+    width: 46px !important;
+  }
+  .entry_bg .entry_container .otp_text {
+    width: 100%;
+    top: -80px;
+    left: 50%;
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  .leftSideBar {
+    display: none;
+  }
+  .HomeBodyContent .store_Card {
+    display: none;
+  }
+
+  .rightSidebar {
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    height: auto;
+    left: 0;
+    margin: 15px auto;
+    padding: 10px;
+    position: relative;
+    top: 0;
+    width: 320px;
+  }
+  .home_page_body_content {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    width: 100%;
+  }
+  .rightSidebar h4 {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .rightSidebar .vault_space {
+    position: relative;
+    text-align: center;
+    margin: 10px auto;
+    height: 155px;
+    width: 155px;
+    border-radius: 50%;
+  }
+  .mobile_bottom_tab .bottom_tab {
+    height: 80px;
+  }
+  .mobile_bottom_tab .bottom_tab .tab_icon {
+    height: 40px;
+    width: 40px;
+  }
+  .mobile_bottom_tab .bottom_tab .tab_icon a .MuiSvgIcon-root {
+    font-size: 22px;
+  }
+  .mobile_bottom_tab .bottom_tab .active {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+  .mobile_bottom_tab .bottom_tab .active a .MuiSvgIcon-root {
+    font-size: 30px;
+  }
+  .rightSidebar .vault_space .MuiCircularProgress-root {
+    height: 155px !important;
+    width: 155px !important;
+  }
+  .vault_upgrade_left .MuiButtonBase-root {
+    font-size: 10px;
+  }
+  .rightSidebar .vault_space .space_update .total_storage {
+    font-size: 25px;
+    line-height: 26px;
+  }
+  .rightSidebar .vault_space .space_update .total_storage span {
+    font-size: 12px;
+  }
+  .rightSidebar .vault_upgrade .vault_upgrade_right span {
+    font-size: 12px;
+    line-height: 10px;
+  }
+
+  .rightSidebar .vault_overview .overview_item {
+    cursor: pointer;
+    display: list-item;
+    display: inline-block;
+    height: 100px;
+    list-style: none;
+    margin-top: 0;
+    padding: 5px;
+    text-align: center;
+    width: 67px;
+  }
+  .rightSidebar .vault_overview .overview_item .item_title {
+    display: list-item;
+    list-style: none;
+    padding-top: 5px;
+  }
+  .rightSidebar .vault_overview .overview_item .item_title span {
+    font-size: 12px;
+    padding-left: 0px;
+  }
+  .d_responsive {
+    display: none !important;
+  }
+
+  .rightSidebar .vault_overview {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .rightSidebar .vault_overview .overview_item .space_count {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .rightSidebar .vault_overview .overview_item .item_title .overviewItem_icon {
+    height: 42px;
+    width: 42px;
+    margin: 0 auto;
+  }
+  .rightSidebar
+    .vault_overview
+    .overview_item
+    .item_title
+    .overviewItem_icon
+    img {
+    max-width: 50%;
+    max-height: 50%;
+  }
+  .HomeBodyContent
+    .recent_files
+    .recent_files_container
+    .section_heading
+    .heading_left
+    h6 {
+    display: none;
+  }
+  .HomeBodyContent
+    .recent_files
+    .recent_files_container
+    .section_heading
+    .heading_left
+    h4 {
+    font-size: 16px;
+  }
+  .HomeBodyContent
+    .recent_files
+    .recent_files_container
+    .section_heading
+    .heading_right {
+    font-size: 14px;
+  }
+
+  .HomeBodyContent
+    .recent_files
+    .recent_files_container
+    .recent_files_item
+    .item_title
+    .item_title_name
+    span {
+    font-size: 14px;
+    padding-left: 0px;
+    line-height: 10px;
+  }
+  .HomeBodyContent
+    .recent_files
+    .recent_files_container
+    .recent_files_item
+    .item_title {
+    align-items: start;
+  }
+
+  .HomeBodyContent
+    .recent_files
+    .recent_files_container
+    .recent_files_item
+    .item_title
+    .item_title_name {
+    padding-left: 8px;
+  }
+  .HomeBodyContent
+    .recent_files
+    .recent_files_container
+    .recent_files_item
+    .item_title
+    .item_title_name
+    .title_mob_date {
+    font-size: 11px;
+    line-height: 15px;
+  }
+  .HomeBodyContent
+    .recent_files
+    .recent_files_container
+    .recent_files_item
+    .list_activity
+    .icoon {
+    margin: 0 0 0 auto;
+  }
+  .HomeBodyContent {
+    padding: 0px 10px;
+    margin-bottom: 100px;
+  }
+  .HomeBodyContent .recent_files {
+    padding-top: 0px;
+  }
+
+  .setting_page_body_content {
+    padding-left: 0px;
+    width: 100%;
+  }
+  .setting_body .setting_container {
+    height: auto;
+    width: 100%;
+    margin-left: 0px;
+    padding: 0px 15px;
+  }
+  .setting_body {
+    width: 100%;
+    margin: 30px 0 125px 0;
+  }
+  .setting_body .setting_container .vault_info {
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px 15px;
+    margin-bottom: 0px;
+  }
+  .setting_body .setting_container .vault_info h5 {
+    font-size: 17px;
+    padding-bottom: 20px;
+  }
+  .setting_body .setting_container h4 {
+    font-size: 20px;
+  }
+  .myfile_page_body_content {
+    padding-left: 0px;
+    padding-top: 0px;
+    width: 100%;
+  }
+  .navigate_part_two {
+    display: none;
+  }
+  .my_files_body {
+    padding: 0 0px;
+    margin-bottom: 100px;
+  }
+  .recycle_body {
+    padding-top: 20px !important;
+  }
+  .files_body_content {
+    padding: 0 16px;
+  }
+  .my_files_body .my_files_navigate {
+    height: 42px;
+    padding: 0 10px;
+    margin-bottom: 22px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .my_files_body .my_files_navigate .navigate_part_one .navigate_title {
+    font-size: 13px;
+    padding: 0 6px;
+  }
+
+  .File_areas {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .journal_page_body_content {
+    padding-left: 0px;
+    width: 100%;
+  }
+  .journal_top {
+    height: 220px;
+  }
+  .journal_top .journal_top_text {
+    top: 50px;
+    padding-left: 20px;
+  }
+  .JournalTips {
+    display: none;
+    z-index: 3;
+  }
+  .journal_save_container .Journal_Save_Item_List {
+    padding: 0px;
+  }
+  .journal_save_container {
+    padding: 20px 12px;
+    margin-bottom: 100px;
+  }
+  .journal_save_container
+    .Journal_Save_Item
+    .Journal_Save_Item_top
+    .journal_Title {
+    line-height: 22px;
+    font-size: 16px;
+    padding: 0px 0;
+  }
+  .journal_save_container
+    .Journal_Save_Item
+    .Journal_Save_Item_top
+    .journal_list_activity {
+    width: 20px;
+    position: relative;
+    top: -5px;
+    left: 6px;
+  }
+  .journal_save_container .Journal_Save_Item .journal_text p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .Journal_preview
+    .journal_preview_body
+    .journal_preview_item
+    .journal_heading {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .Journal_preview
+    .journal_preview_body
+    .journal_preview_item
+    .journal_others_info
+    .info_left {
+    font-size: 13px;
+  }
+  .Journal_preview
+    .journal_preview_body
+    .journal_preview_item
+    .journal_others_info
+    .info_right {
+    font-size: 14px;
+    padding-bottom: 1px;
+  }
+  .Journal_preview
+    .journal_preview_body
+    .journal_preview_item
+    .jurnal_Text_Content {
+    padding-top: 30px;
+    font-size: 13px;
+    line-height: 19px;
+  }
+  .journal_save_container .Journal_Save_Item .journal_creat_date {
+    font-size: 10px;
+    line-height: 20px;
+    bottom: 10px;
+    right: 10px;
+    padding: 0px 15px;
+    border-radius: 35px;
+  }
+  .journal_editor_right_body {
+    padding-left: 0px;
+  }
+  .journal_editor_fixed_sidebar .Journal_left_Bar {
+    display: none;
+  }
+  .journal_editor_right_body
+    .journal_item_details
+    .journal_title_field
+    .MuiInputBase-input {
+    height: 50px !important;
+    width: 100%;
+  }
+  .journal_text_editor {
+    overflow: hidden !important;
+  }
+  .journal_editor_right_body .journal_item_details {
+    padding-bottom: 130px;
+  }
+  .journal_save_container .Journal_Save_Item {
+    height: 230px;
+  }
+  .rightSidebar .vault_upgrade {
+    display: list-item;
+    list-style: none;
+    text-align: center;
+  }
+  .rightSidebar .vault_upgrade .vault_upgrade_right {
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+
+  .swal2-title {
+    font-size: 16px !important;
+  }
+  .swal2-actions {
+    margin: 5px auto 0;
+  }
+  .text_n {
+    display: none !important;
+  }
+  .my_item .item_icon {
+    height: 60px;
+    width: 60px;
+  }
+  .my_item {
+    height: 180px;
+  }
+  .item_details_dialogue {
+    width: 100%;
+    height: auto;
+  }
+  .Journal_Witness_modal .MuiInputBase-input {
+    width: 230px !important;
+  }
+  .css-ypiqx9-MuiDialogContent-root {
+    padding: 10px 10px !important;
+  }
+  .Journal_Witness_modal {
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+  }
+
+  .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    max-width: 600px;
+    width: 300px;
+    padding: 10px;
+  }
+
+  .my_item .item_name {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0 6px 0;
+    word-wrap: break-word;
+  }
+  .upload_progress_container .upload_progress h6 {
+    font-size: 13px;
+    font-weight: 400;
+    padding-right: 0px;
+    text-align: center;
+    padding-bottom: 0px;
+    line-height: 18px;
+  }
+  .upload_progress_container {
+    width: 230px;
+    height: 55px;
+    position: fixed;
+    top: 30px;
+  }
+
+  .journal_editor_right_body {
+    padding-right: 0px;
+  }
+  .Journal_preview {
+    display: list-item;
+    list-style: none;
+    margin-bottom: 120px;
+  }
+  .Journal_preview .journal_preview_body {
+    width: 100%;
+  }
+  .Journal_preview .journal_preview_body .journal_preview_item {
+    padding: 15px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    min-height: 500px;
+  }
+  .print_btn {
+    margin-left: 20px !important;
+  }
+  .Journal_preview .Journal_left_Bar {
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    overflow: visible;
+    overflow-y: visible;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .journal_editor_right_body .journal_item_details .page_title h2 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 399.98px) {
+  .noteAdd::after {
+    height: 120px;
+    width: 120px;
+  }
+  .noteAdd .notebtn_wrap .note_img {
+    height: 60px;
+    width: 60px;
+    margin: 0 auto;
+  }
+  .noteAdd .notebtn_wrap h4 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .rightSidebar {
+    width: 290px;
+  }
+  .entry_bg
+    .entry_container
+    .entry_conetnt_two
+    .entry_process_container
+    .process_wrapper
+    .button_side
+    .N_user_btn {
+    width: 260px !important;
+  }
+  .rightSidebar .vault_overview .overview_item {
+    width: 62px;
+  }
+
+  .entry_bg
+    .entry_container
+    .entry_conetnt_two
+    .entry_process_container
+    .process_wrapper
+    .MuiFormControl-root {
+    width: 260px;
+  }
+}
+
+@media (min-width: 430px) and (max-width: 599.98px) {
+  .note_edid_body .journal_title_field .MuiInputBase-input {
+    width: 300px;
+  }
+  .files_body_content {
+    width: 380px;
+    margin: 0 auto;
+  }
+  .HomeBodyContent .recent_files .recent_files_container {
+    width: 420px;
+    margin: 0 auto;
+  }
+  .setting_body {
+    width: 420px;
+    margin: 0 auto;
+  }
+  .journal_page_body_content {
+    padding-left: 0px;
+    width: 420px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 899.98px) {
+  .files_body_content {
+    width: 600px;
+    margin: 0 auto;
+  }
+  .note_edid_body .journal_title_field .MuiInputBase-input {
+    width: 450px;
+  }
+  .HomeBodyContent .recent_files .recent_files_container {
+    width: 560px;
+    margin: 0 auto;
+  }
+  .setting_body {
+    width: 600px;
+    margin: 0 auto;
+  }
+  .journal_page_body_content {
+    padding-left: 0px;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .d_responsive {
+    display: block !important;
+  }
+  .d_sm {
+    display: none !important;
+  }
+  .journal_editor_right_body
+    .journal_item_details
+    .journal_title_field
+    .MuiInputBase-input {
+    height: 50px !important;
+    width: 500px;
+  }
+  .mobile_bottom_tab .bottom_tab {
+    width: 550px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1199.98px) {
+  .noteAdd::after {
+    height: 150px;
+    width: 150px;
+  }
+  .noteAdd .notebtn_wrap .note_img {
+    height: 75px;
+    width: 75px;
+  }
+  .note_page_body_content {
+    padding-left: 220px;
+    width: 100%;
+    padding-right: 15px;
+  }
+  .note_item {
+    height: 200px;
+  }
+  .noteAdd {
+    height: 200px;
+  }
+  .note_edid_body {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 16px;
+    margin-top: 90px;
+    width: 100%;
+  }
+  .note_edid_body .journal_title_field .MuiInputBase-input {
+    height: 50px !important;
+    width: 600px;
+  }
+
+  .home_top_content {
+    padding-right: 320px;
+    padding-top: 65px;
+    padding-bottom: 20px;
+  }
+  .home_page_body_content {
+    padding-left: 200px;
+    padding-right: 0px;
+    padding-top: 0px;
+    width: 100%;
+  }
+  .leftSideBar {
+    width: 200px;
+  }
+  .d_md {
+    display: none !important;
+  }
+  .HomeBodyContent
+    .recent_files
+    .recent_files_container
+    .recent_files_item
+    .item_title
+    .item_title_name
+    .title_mob_date {
+    font-size: 12px;
+    padding-left: 7px;
+    line-height: 15px;
+  }
+  .HomeBodyContent .recent_files {
+    padding-top: 0px;
+  }
+  .leftSideBar .leftSideBar_contant .sideBtn_list_content .sideBtn_list {
+    margin-bottom: 10px;
+    padding: 5px 10px 5px 0px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .leftSideBar .leftSideBar_contant .sign_out_btn {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    width: 70%;
+    transform: translateX(-50%);
+  }
+  .mobile_header {
+    display: none;
+  }
+  .mobile_bottom_tab {
+    display: none;
+  }
+
+  .rightSidebar {
+    position: absolute;
+    right: 20px;
+    top: 87px;
+    width: 290px;
+    height: auto;
+    padding: 10px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+  }
+  .myfile_page_body_content {
+    padding-left: 200px;
+    padding-top: 70px;
+    width: 100%;
+  }
+  .my_item .item_icon {
+    height: 70px;
+    width: 70px;
+  }
+  .my_item {
+    height: 200px;
+  }
+  .text_n {
+    display: none;
+  }
+  .HomeBodyContent .store_Card {
+    height: 185px;
+    width: 100%;
+  }
+  .rightSidebar .vault_upgrade {
+    display: list-item;
+    list-style: none;
+    text-align: center;
+  }
+  .rightSidebar .vault_upgrade .vault_upgrade_right {
+    padding-left: 0px;
+  }
+  .rightSidebar h4 {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .rightSidebar .vault_space {
+    position: relative;
+    text-align: center;
+    margin: 10px auto;
+    height: 155px;
+    width: 155px;
+    border-radius: 50%;
+  }
+  .rightSidebar .vault_space .MuiCircularProgress-root {
+    height: 155px !important;
+    width: 155px !important;
+  }
+  .vault_upgrade_left .MuiButtonBase-root {
+    font-size: 10px;
+  }
+  .rightSidebar .vault_space .space_update .total_storage {
+    font-size: 25px;
+    line-height: 26px;
+  }
+  .rightSidebar .vault_space .space_update .total_storage span {
+    font-size: 12px;
+  }
+  .rightSidebar .vault_upgrade .vault_upgrade_right span {
+    font-size: 12px;
+    line-height: 10px;
+  }
+
+  .rightSidebar .vault_overview .overview_item {
+    width: 62px;
+    height: 100px;
+    display: list-item;
+    list-style: none;
+    margin-top: 0px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+  }
+  .rightSidebar .vault_overview .overview_item .item_title {
+    display: list-item;
+    list-style: none;
+    padding-top: 5px;
+  }
+  .rightSidebar .vault_overview .overview_item .item_title span {
+    font-size: 12px;
+    padding-left: 0px;
+  }
+  .rightSidebar .vault_overview {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .rightSidebar .vault_overview .overview_item .space_count {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .rightSidebar .vault_overview .overview_item .item_title .overviewItem_icon {
+    height: 42px;
+    width: 42px;
+    margin: 0 auto;
+  }
+  .rightSidebar
+    .vault_overview
+    .overview_item
+    .item_title
+    .overviewItem_icon
+    img {
+    max-width: 50%;
+    max-height: 50%;
+  }
+  .journal_page_body_content {
+    padding-left: 200px;
+  }
+  .journal_save_container {
+    padding: 20px 0px;
+  }
+  .Journal_preview {
+    display: list-item;
+    list-style: none;
+  }
+  .Journal_preview .Journal_left_Bar {
+    height: auto;
+    width: 500px;
+    padding: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  .Journal_preview .journal_preview_body {
+    width: 100%;
+  }
+  .Journal_preview .journal_preview_body .journal_preview_item {
+    padding: 20px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    min-height: 100vh;
+  }
+  .setting_page_body_content {
+    padding-left: 200px;
+    width: 100%;
+  }
+  .setting_body .setting_container {
+    height: auto;
+    width: auto;
+    margin-left: 0px;
+    padding: 30px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 2799.98px) {
+  .mobile_header {
+    display: none;
+  }
+  .mobile_bottom_tab {
+    display: none;
+  }
+  .HomeBodyContent
+    .recent_files
+    .recent_files_container
+    .recent_files_item
+    .item_title
+    .item_title_name
+    .title_mob_date {
+    display: none;
+  }
+}
+@media (min-width: 1536px) and (max-width: 1686.98px) {
+  .my_item .item_name {
+    font-size: 15px;
+    line-height: 21px;
+  }
+  .my_item .item_icon {
+    height: 75px;
+    width: 75px;
+  }
+  .my_item {
+    height: 200px;
+  }
+  .myfile_page_body_content {
+    padding-left: 230px;
+    padding-top: 70px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1359.98px) {
+  .note_page_body_content {
+    padding-right: 20px;
+  }
+  .rightSidebar {
+    position: fixed;
+    right: 20px;
+    top: 90px;
+    width: 290px;
+    height: 100vh;
+  }
+  .my_item .item_name {
+    font-size: 14px;
+  }
+  .rightSidebar .vault_space .space_update .total_storage {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .rightSidebar .vault_upgrade .vault_upgrade_right span {
+    font-size: 13px;
+    line-height: 10px;
+  }
+  .home_page_body_content {
+    padding-left: 250px;
+    padding-right: 310px;
+  }
+  .HomeBodyContent .store_Card {
+    height: 200px;
+  }
+  .HomeBodyContent
+    .recent_files
+    .recent_files_container
+    .recent_files_item
+    .item_title
+    .item_title_name
+    .title_mob_date {
+    display: block;
+    padding-left: 8px;
+    line-height: 15px;
+  }
+  .my_item .item_icon {
+    height: 70px;
+    width: 70px;
+  }
+  .my_item {
+    height: 200px;
+    width: 100%;
+  }
+  .journal_save_container {
+    padding: 0px 0px;
+  }
+  .journal_editor_right_body {
+    padding-right: 200px;
+  }
+  .d_lg {
+    display: none !important;
+  }
+}
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  max-width: 1200px;
+}

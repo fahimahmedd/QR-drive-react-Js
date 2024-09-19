@@ -1,0 +1,160 @@
+.uploader{
+    .backdrop_contorller{
+        z-index: 6;
+    }
+}
+
+
+ 
+
+.uploader_contianer{
+    padding: 10px 10px 20px 10px;
+    width: 100%;
+    .folder_name_input{
+        width: 100%;
+        margin-bottom: 12px;
+        .css-1x5jdmq {
+            min-width: 392px !important;
+        }
+   }
+    
+    .Upload_btn{
+        width: 100%;
+        margin-top: 12px;
+        height: 40px;
+    }
+}
+
+// .css-ibczwg-MuiPaper-root {
+//     max-width: 358px !important;
+//     .css-1gqyqc7-MuiTypography-root {
+//         .css-lqq9ua {
+//            display: none !important;
+//         }
+//     }
+
+//     .css-1lebi60-MuiPaper-root {
+//         background: #9eb4c6;
+//         height: 200px;
+//         min-width: 340px;
+//         position: relative; 
+//         .css-919fip-MuiGrid-root {
+//             img{
+//                 display: none !important; 
+//             }
+//         }
+//         .css-57adr3-MuiGrid-root {
+//             position: absolute;
+//             top: 50%;
+//             left: 50%;
+//             width: 100%;
+//             transform: translate(-50%,-50%);
+//             padding-top: 0px;
+//             padding-left: 0px;
+//         }
+//     }
+// }
+.css-lqq9ua {
+    
+    display: none !important;
+}
+.css-5t8t4o {
+    width: 420px !important;
+}
+.css-13ijswq {
+    background: rgb(107 164 209) !important;
+    height: 200px !important;
+    position: relative !important;
+}
+.css-9ufzdr{
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%,-50%) !important;
+    width: 100% !important;
+    margin-top: 0px !important;
+}
+.css-15bzofy img{
+    display: none !important;
+}
+
+
+.recycle_img{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 200px;
+    img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+
+.upload_progress_container{
+    width: 300px;
+    background-color: $white-color;
+    height: 70px;
+    position: fixed;
+    top: 30px;
+    right: 0;
+    z-index: 1302;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px; 
+    box-shadow: $secondary-boxShadow;
+  .upload_progress{
+    width: 300px;
+
+     h6{
+        font-size: 16px;
+        color: $black-color;
+        font-weight: 500;
+        padding-right: 10px;
+        text-align: center;
+        padding-bottom: 2px;
+     }
+    .MuiBox-root{
+        padding: 0 2px 0 4px;
+        .MuiLinearProgress-root{
+            height: 10px;
+            background-color: #f1efef;
+            border-radius: 35px;
+            .MuiLinearProgress-bar{
+                background-color: $primary-color;
+            }
+        }
+    }
+    .MuiTypography-root{
+         color: $black-color;
+    }
+    .upload_cancle{
+        position: absolute;
+        right: 10px; 
+        top: 5px;
+        &:hover .MuiSvgIcon-root{
+        color: #333;
+        }
+        .MuiSvgIcon-root{
+            color: #969393;
+            cursor: pointer;
+        }
+    }
+  }
+   
+}
+.swal2-container {
+    z-index: 1303 !important;
+
+}
+
+.css-zq6grw{
+    display: none !important;
+}

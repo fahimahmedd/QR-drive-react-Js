@@ -1,0 +1,40 @@
+.register_content{
+    border-radius: 26px;
+    overflow: hidden;
+    padding: 40px 40px 30px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   .register_form{
+    position: relative;
+    width: 100%;
+    h4{
+        font-size: 24px;
+        color: $white-color;
+        font-weight: 500;
+        padding-bottom: 30px;
+    }
+    .register_input_container{
+       .MuiFormControl-root{
+        width: 320px;
+        background-color: rgba(255, 255, 255, 0.331);
+        border-radius: 7px;
+        overflow: hidden;
+        margin: 5px 0;
+        .MuiInputBase-root{
+            &::before{
+                border-bottom: 1px solid transparent;
+   
+            }
+        }
+        .MuiFormLabel-root{
+            color: rgba(255, 255, 255, 0.714);
+        }
+       }
+    }
+    .next_button{
+       text-align: end;
+       padding-top: 30px;
+    }
+   }
+}

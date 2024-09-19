@@ -1,0 +1,166 @@
+.note_container{
+    padding-top: 90px;
+}
+.noteAdd{
+    height: 220px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: $primary-boxShadow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    &:hover{
+        box-shadow:$secondary-boxShadow;
+    }
+    &::after{
+        position: absolute;
+        content: '';
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        height: 180px;
+        width: 180px;
+        background-color: $secondary-background;
+        border-radius: 50%;
+        z-index: -1;
+    }
+    .notebtn_wrap{
+      .note_img{
+        height: 90px;
+         width: 90px;
+      img{
+        max-width: 100%;
+        max-height: 100%;
+      }
+      }
+      h4{
+        font-size: 16px;
+        color: $black2-color;
+        font-weight: 400;
+    }
+    }
+    
+}
+
+
+
+
+
+.note_item{
+    height: 220px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: $primary-boxShadow;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    .note_title{
+        font-size: 18px;
+        color: $black-color;
+        font-weight: 500;
+        line-height: 24px;
+        padding-bottom: 10px;
+    }
+    p{
+        font-size: 15px;
+        color: $text;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: start;
+    }
+    .list_activity{
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        .icoon{
+                height: 30px;
+                width: 30px;
+                background-color: $primary-background;
+                border-radius: 50%;
+                text-align: center;
+                
+            .MuiSvgIcon-root {
+               margin-top: 5px;
+               font-size: 20px;
+               cursor: pointer;
+               color: #747474;
+            }
+        }
+    }
+}
+
+.note_edid_body{
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 16px;
+    margin-top: 90px;
+    width: 750px;
+    .journal_save_btn {
+        text-align: end;
+    }
+    .page_title{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h2{
+            font-size: 22px;
+            color: $text;
+            font-weight: 500;
+            line-height: 34px;
+        }
+      
+    }
+   
+    .journal_title_field{
+      .MuiFormLabel-root {
+        top: 10px;
+      }
+      .css-v4u5dn-MuiInputBase-root-MuiInput-root{
+        &::before{
+            border-bottom: 1px dashed $text !important;
+        }
+      }
+      .MuiInputBase-input {
+        height: 50px !important;
+        width: 700px;
+        font-size: 26px;
+        color: $black-color;
+      }
+    }
+
+    .editor_container{
+        margin-top: 60px;
+        
+    }
+
+    .text_editor{
+        padding-top: 30px;
+        overflow: hidden;
+        .se-toolbar{
+            background-color: #006ed5;
+        }
+        .sun-editor .se-btn-select .txt {
+            color: #fff;
+        }
+        .sun-editor .se-btn-select>svg {
+            color: #fff;
+        }
+        .sun-editor .se-svg, .sun-editor button>svg {
+            color: #fff;
+        }
+        .se-wrapper-inner{
+            background-color: #f5f5f5;
+        }
+        .se-btn{
+            &:hover{
+                background-color: #d1d1d164 !important;
+            }
+        }
+    }
+}

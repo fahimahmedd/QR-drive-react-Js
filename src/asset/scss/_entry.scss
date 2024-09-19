@@ -1,0 +1,392 @@
+.entry_bg{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../image/bg1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .entry_container{
+       height: 600px;
+       width: 850px;
+       background-color: rgba(255, 255, 255, 0.3);
+       border-radius: 26px;
+       overflow: hidden;
+       padding: 20px;
+       display: flex;
+       align-items: center;
+       position: relative;
+       .otp_text{
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        font-size: 17px;
+        color: $white-color;
+        font-weight: 500;
+        line-height: 24px;
+        padding: 10px 30px;
+        background-color: rgba(0,0,0,0.4);
+        display: inline-block;
+        border-radius: 35px;
+       }
+       .entry_conetnt_two{
+        text-align: center;
+        .logo{
+            height: 70px;
+            width: auto;
+            img{
+                max-width: 100%;
+                max-height: 100%;
+            }
+        }
+
+        h4{
+            font-size: 18px;
+            color: $white-color;
+            font-weight: 500;
+            text-transform: uppercase;
+
+        }
+     .entry_process_container{
+         min-height: 130px;
+         width: 300px;
+         margin: 0 auto; 
+         padding-top: 15px;
+         position: relative; 
+         display: flex;
+         justify-content: center;
+        .process_wrapper{
+            .purchase_filed{
+                margin: 8px 8px !important;
+
+            }
+            .css-10botns-MuiInputBase-input-MuiFilledInput-input.Mui-disabled {
+                opacity: 1;
+                -webkit-text-fill-color: $white-color;
+            
+            }
+            h3{
+                font-size: 20px;
+                color: $white-color;
+                font-weight: 500;
+                line-height: 28px;
+                padding-bottom: 20px;
+                text-transform: uppercase;
+            }
+            .MuiFormControl-root{
+                width: 280px;
+                background-color: rgba(255, 255, 255, 0.331);
+                border-radius: 7px;
+                overflow: hidden; 
+                margin: 5px 0;
+                .MuiInputBase-root{
+                    &::before{
+                        border-bottom: 1px solid transparent;
+           
+                    }
+                } 
+                .MuiFormLabel-root{
+                    color: rgba(255, 255, 255, 0.714);
+                } 
+                .MuiInputBase-root {
+                   &::after{
+                     border-bottom: 2px solid $white-color;
+                   }
+                   .MuiFilledInput-input{
+                    color: $white-color !important;
+                }
+                }
+                .pass_input_field{
+                    padding: 5px 0 1px 12px !important; 
+                    color: $white-color !important;
+                }
+                
+                
+               }
+            .button_side{
+                padding-top: 10px;
+                .submit_btn{
+                    padding: 10px 0;
+                    line-height: 1.75;
+                    text-transform: uppercase;
+                    width: 100% !important;
+                    border-radius: 6px; 
+                }
+                .N_user_btn{
+                    width: 280px !important;
+                }
+            }
+            .otp_btn{
+                padding-top: 30px; 
+            }
+        }
+    }
+    .entry_process_container_2{
+        width: 100%;
+    }
+         .register_btn_B{
+             font-weight: 400;
+             color: $white-color;
+             font-size: 16px;
+             cursor: pointer;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             display: inline-block;
+             padding: 8px 25px;
+             background-color: rgba(0,0,0,0.5);
+             border-radius: 7px;
+             border: 1px solid transparent;
+             &:hover{
+                background-color: $third-background;
+                color: $black-color;
+                border: 1px solid $white-color;
+             }
+          }
+        }
+      }
+}
+.entry_bg_userVault{
+    width: 100%;
+    background-image: url(../image/bg1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .entry_container{
+       height: 600px;
+       width: 850px;
+       background-color: rgba(255, 255, 255, 0.3);
+       border-radius: 26px;
+       overflow: hidden;
+       padding: 20px;
+       display: flex;
+       align-items: center;
+       position: relative;
+       .otp_text{
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        font-size: 17px;
+        color: $white-color;
+        font-weight: 500;
+        line-height: 24px;
+        padding: 10px 30px;
+        background-color: rgba(0,0,0,0.4);
+        display: inline-block;
+        border-radius: 35px;
+       }
+       .entry_conetnt_two{
+        text-align: center;
+        .logo{
+            height: 70px;
+            width: auto;
+            img{
+                max-width: 100%;
+                max-height: 100%;
+            }
+        }
+
+        h4{
+            font-size: 18px;
+            color: $white-color;
+            font-weight: 500;
+            text-transform: uppercase;
+
+        }
+     .entry_process_container{
+         min-height: 130px;
+         width: 300px;
+         margin: 0 auto; 
+         padding-top: 15px;
+         position: relative; 
+         display: flex;
+         justify-content: center;
+        .process_wrapper{
+            .purchase_filed{
+                margin: 8px 8px !important;
+
+            }
+            .css-10botns-MuiInputBase-input-MuiFilledInput-input.Mui-disabled {
+                opacity: 1;
+                -webkit-text-fill-color: $white-color;
+            
+            }
+            h3{
+                font-size: 20px;
+                color: $white-color;
+                font-weight: 500;
+                line-height: 28px;
+                padding-bottom: 20px;
+                text-transform: uppercase;
+            }
+            .MuiFormControl-root{
+                width: 280px;
+                background-color: rgba(255, 255, 255, 0.331);
+                border-radius: 7px;
+                overflow: hidden; 
+                margin: 5px 0;
+                .MuiInputBase-root{
+                    &::before{
+                        border-bottom: 1px solid transparent;
+           
+                    }
+                } 
+                .MuiFormLabel-root{
+                    color: rgba(255, 255, 255, 0.714);
+                } 
+                .MuiInputBase-root {
+                   &::after{
+                     border-bottom: 2px solid $white-color;
+                   }
+                   .MuiFilledInput-input{
+                    color: $white-color !important;
+                }
+                }
+                .pass_input_field{
+                    padding: 5px 0 1px 12px !important; 
+                    color: $white-color !important;
+                }
+                
+                
+               }
+            .button_side{
+                padding-top: 10px;
+                .submit_btn{
+                    padding: 10px 0;
+                    line-height: 1.75;
+                    text-transform: uppercase;
+                    width: 100% !important;
+                    border-radius: 6px; 
+                }
+                .N_user_btn{
+                    width: 280px !important;
+                }
+            }
+            .otp_btn{
+                padding-top: 30px; 
+            }
+        }
+    }
+    .entry_process_container_2{
+        width: 100%;
+    }
+         .register_btn_B{
+             font-weight: 400;
+             color: $white-color;
+             font-size: 16px;
+             cursor: pointer;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             display: inline-block;
+             padding: 8px 25px;
+             background-color: rgba(0,0,0,0.5);
+             border-radius: 7px;
+             border: 1px solid transparent;
+             &:hover{
+                background-color: $third-background;
+                color: $black-color;
+                border: 1px solid $white-color;
+             }
+          }
+        }
+      }
+}
+
+    .purchase_btn{
+        .MuiButtonBase-root{
+            color: $white-color ;
+            border-color:  $white-color;
+        }
+    }
+    .purchase_btn_2{
+        display: none !important;
+    }
+    .pass_eye_btn{
+      margin-top: -20px !important;
+      margin-right: 5px !important;
+      
+      .MuiSvgIcon-root{
+        height: 20px;
+        width: 20px; 
+        color: $white-color;
+      }
+    }
+
+  .AuthenticationGraphix{
+      text-align: center;
+      .side_show_image{
+          position: relative; 
+         .small_img{
+             height: 320px;
+             width: auto;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             cursor: pointer; 
+             img{
+                 max-width: 100%;
+                 max-height: 100%;
+                 animation: updown3 6s linear infinite;
+             }
+         }
+         .mediam_img{
+             height: 120px;
+             width: 90px;
+             border-radius: 12px;
+             overflow: hidden;
+             img{
+                 max-width: 100%;
+                 max-height: 100%;
+             }
+         }
+      }
+      .content_one{
+          padding-top: 12px;
+         h4{
+             color: $white-color;
+             font-size: 20px;
+             font-weight: 500;
+             text-transform: uppercase;
+             text-align: center;
+             line-height: 28px;
+         }
+      }
+    }
+
+
+
+
+
+
+@keyframes updown3{
+    0% {
+       -webkit-transform: translate3d(0,0,0);
+       transform: translate3d(0,0,0);
+     }
+     40% {
+       -webkit-transform: translate3d(0,-25px,0);
+       transform: translate3d(0,-25px,0);
+       -moz-transform: translate3d(0,-25px,0);
+       -ms-transform: translate3d(0,-25px,0);
+       -o-transform: translate3d(0,-25px,0);
+    }
+     100% {
+       -webkit-transform: translate3d(0,0,0);
+       transform: translate3d(0,0,0);
+     }
+    }
+
+
+
+
+   
